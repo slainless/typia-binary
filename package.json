@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ehealth-co-id/typia-binary.git"
+		"url": "git+https://github.com/slainless/typia-binary.git"
 	},
 	"type": "module",
 	"bin": {},

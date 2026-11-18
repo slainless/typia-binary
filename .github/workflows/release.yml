@@ -68,7 +68,7 @@ jobs:
 
       # No `registry-url`: it writes a *global* registry= into .npmrc, which would send
       # every unscoped dep below to npm.pkg.github.com. The committed .npmrc routes only
-      # the @ehealth-co-id scope instead.
+      # the @slainless scope instead.
       - uses: actions/setup-node@v4
         with:
           node-version: 24

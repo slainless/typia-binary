@@ -11,7 +11,7 @@ const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...segments: string[]) => path.join(root, ...segments);
 
 const BINARY = process.platform === "win32" ? "plugin.exe" : "plugin";
-const DEFAULT_PACKAGE_NAME = "@ehealth-co-id/typia-binary";
+const DEFAULT_PACKAGE_NAME = "@slainless/typia-binary";
 
 const {
 	from: seed,

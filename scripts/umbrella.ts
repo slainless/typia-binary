@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 import yargs from "yargs";
 import manifest from "../package.json" with { type: "json" };
 
-const DEFAULT_PACKAGE_NAME = "@ehealth-co-id/typia-binary";
+const DEFAULT_PACKAGE_NAME = "@slainless/typia-binary";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...segments: string[]) => path.join(root, ...segments);
